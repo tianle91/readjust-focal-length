@@ -7,7 +7,6 @@ brew install libheif
 heif-convert --with-aux sample.heic sample.jpg
 ```
 
-https://huggingface.co/docs/diffusers/optimization/mps
-```
-pip install --pre torch==1.14.0.dev20221007 torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
-```
+So far I've found that OpenCV worked best for infilling.
+Using stable-diffusion yielded poor noisy results [here](https://colab.research.google.com/drive/1IWzy9WmxbSDrtwdUIF4CqN4A7fjAazT_?usp=sharing).
+ 
